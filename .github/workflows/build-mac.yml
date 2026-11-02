@@ -23,6 +23,7 @@ jobs:
           python -m pip install pyinstaller
           python -m pip install pyobjc-framework-Quartz pyobjc-framework-Vision pyobjc-framework-Cocoa pyobjc-core
           python -m pip install pynput
+          python -m pip install pillow
 
       - name: Build .app
         run: |
